@@ -55,6 +55,13 @@ button {
     font-family: 'Raleaway';
     font-size: 10px;
     cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+button:focus,
+button:hover {
+    background-color: #0077FF;
+    color: #E0EFFF;
 }
 
 @media screen and (max-width: 480px) {
