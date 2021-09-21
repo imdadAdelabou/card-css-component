@@ -16,7 +16,8 @@ img {
     width: 100%;
     height: 215px;
     object-fit: cover;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
 }
 
 .tag {
@@ -26,18 +27,34 @@ img {
     color: #788697;
     font-family: 'Raleway';
     font-weight: 600;
-    margin: 0 10px 16px 16px;
+    margin: 0 10px 16px 10px;
 }
 
 h1 {
     color: #0E2632;
     font-family: 'Raleway';
     font-weight: 600;
+    margin-left: 10px;
 }
 
 p {
     font-family: "Raleaway";
     color: #7F8C9B;
+    margin: 0 0 20px 10px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: #E0EFFF;
+    padding: 12px 24px 12px 24px;
+    border-radius: 49px;
+    color: #0077FF;
+    font-weight: 600;
+    font-family: 'Raleaway';
+    font-size: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
