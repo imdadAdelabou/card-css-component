@@ -35,6 +35,11 @@ h1 {
     font-weight: 600;
 }
 
+p {
+    font-family: "Raleaway";
+    color: #7F8C9B;
+}
+
 @media screen and (max-width: 480px) {
     body {
         background-color: red;
